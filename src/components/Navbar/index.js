@@ -1,11 +1,11 @@
 
 import { Nav, NavLink, NavIcon, Bars } from './styles';
 
-export function Navbar() {
+export function Navbar({ toggle }) {
   return (
     <Nav>
       <NavLink to='/'>Pizza</NavLink>
-      <NavIcon>
+      <NavIcon onClick={toggle}>
         <p>Menu</p>
         <Bars />
       </NavIcon>
