@@ -33,9 +33,8 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
+  color: var(--white);
   justify-self: start;
-  cursor: pointer;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
@@ -51,6 +50,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+  color: var(--white);
   font-size: 1.5rem;
 `;

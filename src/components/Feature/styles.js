@@ -12,7 +12,7 @@ export const FeatureContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   padding: 0 1rem;
 
@@ -30,13 +30,13 @@ export const FeatureButton = styled.button`
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: none;
-  background: #ffc500;
-  color: #000;
+  background: var(--yellow);
+  color: var(--black);
   transition: 0.2s ease-out;
 
   &:hover{
-    background: #e31837;
-    color: #fff;
+    background: var(--red);
+    color: var(--white);
     transition: 0.2s ease-out;
     cursor: pointer;
   }

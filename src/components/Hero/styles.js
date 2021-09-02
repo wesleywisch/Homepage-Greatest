@@ -51,13 +51,13 @@ export const HeroBtn = styled.button`
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
-  background: #e31837;
-  color: #fff;
+  background: var(--red);
+  color: var(--white);
   transition: 0.2s ease-out;
 
   &:hover{
-    background: #ffc500;
+    background: var(--yellow);
     transition: 0.2 ease-out;
-    color: #000;
+    color: var(--black);
   }
 `;

@@ -9,6 +9,9 @@ export default createGlobalStyle`
 
   :root{
     --white: #FFF;
+    --yellow: #ffc500;
+    --black: #000000;
+    --red: #e31837;
   }
 
   @media (max-width: 1080px){
