@@ -12,7 +12,7 @@ export const HeroContainer = styled.div`
 export const HeroContent = styled.div`
   height: calc(100vh - 5rem); // 5rem = 80px
   max-height: 100%;
-  width: 100vw;
+  width: 100%;
   padding: 0 calc((100vw - 81.25rem) / 2); // 81.25 = 1300px
 `;
 
