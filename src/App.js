@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Hero } from './components/Hero';
 import { Products } from './components/Products';
 import { Feature } from './components/Feature';
+import { Footer } from './components/Footer';
 
 import GlobalStyle from './styles/global';
 
@@ -16,6 +17,7 @@ function App() {
       <Products heading='Escolha o seu favorito' data={productData} />
       <Feature />
       <Products heading='Doces para você' data={productDataTwo} />
+      <Footer />
       <GlobalStyle />
     </Router>
   );
