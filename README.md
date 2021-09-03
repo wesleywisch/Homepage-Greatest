@@ -9,7 +9,7 @@ Projeto apenas construindo um design de uma página de um e-comerce de uma pizza
 
 <h2 id="layout"> 🎨  Layouts</h2>
 
-<link href="./.github/Homepage-Greatest.gif" alt="Homepage-Greatest" />
+<img href="./.github/Homepage-Greatest.gif" alt="Homepage-Greatest" />
 
 <h2 id="aplicacao"> 🎲  Rodando essa aplicação:</h2>
 
